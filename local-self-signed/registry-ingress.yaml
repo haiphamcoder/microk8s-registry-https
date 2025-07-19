@@ -19,6 +19,13 @@ spec:
             pathType: Prefix
             backend:
               service:
+                name: registry-ui
+                port:
+                  number: 80
+          - path: /v2
+            pathType: Prefix
+            backend:
+              service:
                 name: registry
                 port:
                   number: 5000
