@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: registry-ui
-  namespace: container-registry
+  namespace: ${NAMESPACE}
 spec:
   type: NodePort
   selector:

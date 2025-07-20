@@ -1,0 +1,7 @@
+auth.htpasswd
+
+# Environment variables
+.env
+
+# Rendered files
+rendered/
